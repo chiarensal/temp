@@ -22,6 +22,7 @@ h1 {
     font-size: calc(1rem + 10vw);
     line-height: 1.15;
     margin-top: 3vw;
+    margin-bottom: 0
 }
 
 main {
