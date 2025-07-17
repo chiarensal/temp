@@ -1,0 +1,69 @@
+html {
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Atkinson Hyperlegible Next', sans-serif;
+}
+
+:root {
+    --text-xs: 0.75rem;   /* 12px */
+    --text-sm: 0.875rem;  /* 14px */
+    --text-base: 1rem;    /* 16px */
+    --text-lg: 1.125rem;  /* 18px */
+    --text-xl: 1.25rem;   /* 20px */
+    --text-2xl: 1.5rem;   /* 24px */
+    --text-3xl: 1.875rem; /* 30px */
+    --text-4xl: 2.25rem;  /* 36px */
+    --text-5xl: 3rem;     /* 48px */
+}
+
+h1 { 
+    font-size: calc(1rem + 10vw);
+    line-height: 1.15;
+    margin-top: 3vw;
+}
+
+main {
+    max-width: 65ch;  /* ~600-700px */
+    padding: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    line-height: 1.15;
+}
+
+.base {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: underline;
+    position: relative;
+    color: hotpink;
+}
+
+a::after {
+content: '';
+   position: absolute;
+   left: 0;
+   bottom: -2px;
+   width: 0;
+   height: 2px;
+   background: hotpink;
+   transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+a::before {
+   content: "";
+   background: url("external-link-thick.svg");
+   width: 1em;
+   height: 1em;
+   display: inline-block;
+   vertical-align: baseline;
+}
