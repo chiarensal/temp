@@ -4,6 +4,8 @@ html {
 
 body {
     font-family: 'Atkinson Hyperlegible Next', sans-serif;
+    margin-left: 10vw;
+    margin-right: auto;
 }
 
 :root {
@@ -21,12 +23,11 @@ body {
 h1 { 
     font-size: calc(1rem + 10vw);
     line-height: 1.15;
-    margin-top: 0;
+    margin: 0;
 }
 
 main {
     max-width: 65ch;  /* ~600-700px */
-    padding: 0.5rem;
 }
 
 .subtitle {
@@ -57,13 +58,4 @@ content: '';
 
 a:hover::after {
     width: 100%;
-}
-
-a::before {
-   content: "";
-   background: url("external-link-thick.svg");
-   width: 1em;
-   height: 1em;
-   display: inline-block;
-   vertical-align: baseline;
 }
