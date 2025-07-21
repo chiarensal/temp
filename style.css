@@ -21,11 +21,7 @@ body {
 h1 { 
     font-size: calc(1rem + 10vw);
     line-height: 1.15;
-    margin-top: 3vw;
-<<<<<<< HEAD
-=======
-    margin-bottom: 0;
->>>>>>> 86621d5c95520fbea1cc9e58ec82126c20cc8c22
+    margin-top: 0;
 }
 
 main {
@@ -62,7 +58,6 @@ content: '';
 a:hover::after {
     width: 100%;
 }
-<<<<<<< HEAD
 
 a::before {
    content: "";
@@ -72,5 +67,3 @@ a::before {
    display: inline-block;
    vertical-align: baseline;
 }
-=======
->>>>>>> 86621d5c95520fbea1cc9e58ec82126c20cc8c22
